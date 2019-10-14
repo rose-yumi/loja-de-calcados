@@ -28,3 +28,22 @@ header nav navbar{
 .navegacao{
     background-color: #f8f9fa;
 }
+
+.preco{
+    text-align: center;
+}
+
+.row main .card:hover{
+	outline: 1px solid #F0F0F0;
+	cursor: pointer;
+}
+
+.row main .card:hover .controles a{
+	color: #000;
+}
+
+.row main .card .controles a{
+	font-size: 0.75rem;
+	cursor: pointer;
+	color: #666;
+}
